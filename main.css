@@ -1,0 +1,228 @@
+/*cabeçario*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+header {
+    padding: 8px 0;
+    background-color: #4287f5;
+    margin-bottom: 56px;
+}
+h2 {
+    float: left;
+    list-style: none;
+    padding: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.clear{
+    clear: both;
+}
+/*imagem*/
+
+.store-front {
+    margin-right: 32px;
+    width: 450px;
+    left: 20px;
+}
+h3 {
+    padding-bottom: 20px;
+    color: #4287f5;
+    border-bottom: 2px solid #4287f5;
+}
+.produto {
+    padding-left: 20px;
+    color: #fff;
+}
+
+p {
+    display: flex;
+    margin-top: 2px;
+    max-width: 100%;
+    font-size: .8em;
+    font:bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.product {
+    padding-left: 5px;
+    padding: 20px;
+    color: #4287f5;
+    border-bottom: 2px solid #4287f5;
+    width: 100%;
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns:repeat(4,24.25%);
+    column-gap: 1%;
+    row-gap: 5%;
+    padding-left: 10px;
+
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #4287f5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    padding-bottom: 10px;
+}
+.p p {
+    font-size: 15px;
+    color: black;
+    
+}
+.prf p {
+    font-size: 13px;
+    color: rgba(0, 3, 3, 0.59);
+}
+li {
+    text-align: center;
+    padding-right: 10PX;
+    list-style: none;
+    padding-bottom: 10px;
+}
+@media  screen and (max-width: 640px), (orientation: landscape) {
+    .container {
+        max-width: 90%;
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2px;
+    }
+    header .container {
+        display: block;
+        justify-content: space-between;
+        color: #fff;
+    }
+    
+}
+@media  screen and (max-width: 641px),(min-width: 1023px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 2px;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    header {
+        padding: 8px 0;
+        background-color: #4287f5;
+        margin-bottom: 56px;
+    }
+    h2 {
+        float: left;
+        list-style: none;
+        padding: 16px;
+        text-decoration: none;
+        color: #fff;
+    }
+    .clear{
+        clear: both;
+    }
+    /*imagem*/
+    
+    .store-front {
+        margin-right: 32px;
+        width: 450px;
+        left: 20px;
+    }
+    h3 {
+        padding-bottom: 20px;
+        color: #4287f5;
+        border-bottom: 2px solid #4287f5;
+    }
+    .produto {
+        padding-left: 20px;
+        color: #fff;
+    }
+    
+    p {
+        display: flex;
+        margin-top: 2px;
+        max-width: 100%;
+        font-size: .8em;
+        font:bold;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .product {
+        padding-left: 5px;
+        padding: 20px;
+        color: #4287f5;
+        border-bottom: 2px solid #4287f5;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    img {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns:repeat(4,24.25%);
+        column-gap: 1%;
+        row-gap: 5%;
+        padding-left: 10px;
+    
+    }
+    button {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+        border: none;
+        background-color: #4287f5;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        border-radius: 6px;
+        padding-bottom: 10px;
+    }
+    .p p {
+        font-size: 15px;
+        color: black;
+        
+    }
+    .prf p {
+        font-size: 13px;
+        color: rgba(0, 3, 3, 0.59);
+    }
+    li {
+        text-align: center;
+        padding-right: 10PX;
+        list-style: none;
+        padding-bottom: 10px;
+    }
+}
